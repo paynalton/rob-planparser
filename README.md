@@ -15,16 +15,10 @@ Este repositorio lee un archivo o una cadena de texto que contenga un documento 
 
 
 
-`const  parser  = require('rob-planparser')`
+`const  parser  = require('rob-planparser')
 
-
-
-`parser.parseFromString(resp.xmlString).then(`
-
-​                                    `(xmlData)=>{`
-
-​                                        `menuCreator.parse(xmlData,output/${resp.filename});`
-
-​                                    `},error=>console.error(error)`
-
-​                            `).catch(error=>console.log(error))`
+parser.parseFromString(resp.xmlString).then(
+	(data)=>{
+		console.log(data);
+		},error=>console.error(error)
+	).catch(error=>console.log(error));`

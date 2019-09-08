@@ -1,6 +1,6 @@
 {
   "name": "rob-planparser",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Parser from Nutritional Plan Document file type to json object",
   "main": "parser.js",
   "scripts": {
