@@ -1,0 +1,29 @@
+{
+  "name": "rob-planparser",
+  "version": "1.0.0",
+  "description": "Parser from Nutritional Plan Document file type to json object",
+  "main": "parser.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paynalton/rob-planparser.git"
+  },
+  "keywords": [
+    "nutrition",
+    "parser",
+    "ia",
+    "robalance"
+  ],
+  "author": "paynalton",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/paynalton/rob-planparser/issues"
+  },
+  "homepage": "https://github.com/paynalton/rob-planparser#readme",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "xml2js": "^0.4.22"
+  }
+}
